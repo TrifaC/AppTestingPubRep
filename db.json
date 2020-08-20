@@ -1,63 +1,32 @@
-{[
+{
+  "posts": [
     {
-        "time":"Mon",
-        "location":"Kowloon",
-        "selling":[
-        {"sellingDishName":"Spider Crab","sellingDishAmount":"1"},
-        {"sellingDishName":"Brittany Abalone","sellingDishAmount":"2"},
-        {"sellingDishName":"Dieppoise Dover Sole","sellingDishAmount":"3"},
-        {"sellingDishName":"Salt March Lamb","sellingDishAmount":"4"},
-        {"sellingDishName":"Calvados Camembert","sellingDishAmount":"5"},
-        {"sellingDishName":"Classic French Mille Feuille","sellingDishAmount":"7"},
-        ]
+      "id": 1,
+      "title": "Post 1"
     },
     {
-        "time":"Tue",
-        "location":"HongKong Island",
-        "selling":[
-        {"sellingDishName":"Spider Crab","sellingDishAmount":"7"},
-        {"sellingDishName":"Brittany Abalone","sellingDishAmount":"7"},
-        {"sellingDishName":"Dieppoise Dover Sole","sellingDishAmount":"7"},
-        {"sellingDishName":"Salt March Lamb","sellingDishAmount":"7"},
-        {"sellingDishName":"Calvados Camembert","sellingDishAmount":"7"},
-        {"sellingDishName":"Classic French Mille Feuille","sellingDishAmount":"7"},
-        ]
+      "id": 2,
+      "title": "Post 2"
     },
     {
-        "time":"Wed",
-        "location":"Kowloon",
-        "selling":[
-        {"sellingDishName":"Spider Crab","sellingDishAmount":"6"},
-        {"sellingDishName":"Brittany Abalone","sellingDishAmount":"6"},
-        {"sellingDishName":"Dieppoise Dover Sole","sellingDishAmount":"6"},
-        {"sellingDishName":"Salt March Lamb","sellingDishAmount":"6"},
-        {"sellingDishName":"Calvados Camembert","sellingDishAmount":"6"},
-        {"sellingDishName":"Classic French Mille Feuille","sellingDishAmount":"6"},
-        ]
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     },
     {
-        "time":"THU",
-        "location":"New Territories",
-        "selling":[
-        {"sellingDishName":"Spider Crab","sellingDishAmount":"6"},
-        {"sellingDishName":"Brittany Abalone","sellingDishAmount":"5"},
-        {"sellingDishName":"Dieppoise Dover Sole","sellingDishAmount":"4"},
-        {"sellingDishName":"Salt March Lamb","sellingDishAmount":"3"},
-        {"sellingDishName":"Calvados Camembert","sellingDishAmount":"2"},
-        {"sellingDishName":"Classic French Mille Feuille","sellingDishAmount":"1"},
-        ]
-    },
-	{
-        "time":"FRI",
-        "location":"Kowloon",
-        "selling":[
-        {"sellingDishName":"Spider Crab","sellingDishAmount":"0"},
-        {"sellingDishName":"Brittany Abalone","sellingDishAmount":"1"},
-        {"sellingDishName":"Dieppoise Dover Sole","sellingDishAmount":"0"},
-        {"sellingDishName":"Salt March Lamb","sellingDishAmount":"1"},
-        {"sellingDishName":"Calvados Camembert","sellingDishAmount":"0"},
-        {"sellingDishName":"Classic French Mille Feuille","sellingDishAmount":"1"},
-        ]
-    },
-]}
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
 
